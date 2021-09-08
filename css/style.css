@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  height: 100%; }
+
+body {
+  font-family: 'Special Elite', cursive;
+  font-weight: 400;
+  line-height: 1.7; }
+
+.ghost {
+  height: 30rem;
+  width: 12rem;
+  border-left: 0.5rem solid #3E2C41;
+  border-top: 0.5rem solid #3E2C41;
+  border-right: 0.5rem solid #3E2C41;
+  border-radius: .2rem;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  background-color: rgba(92, 82, 127, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  transition: all .8s; }
+  .ghost:hover {
+    clip-path: polygon(11% 96%, 18% 82%, 24% 65%, 30% 46%, 38% 26%, 46% 20%, 55% 20%, 61% 26%, 69% 45%, 77% 63%, 84% 77%, 92% 91%, 98% 99%, 71% 88%, 57% 99%, 40% 90%); }
+
+.header {
+  background-color: #f7f7f7;
+  padding: 10rem;
+  font-size: 2rem;
+  color: #261C2C; }
+
+.section-ghost {
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(to bottom, #f7f7f7, #777); }

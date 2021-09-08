@@ -1,0 +1,16 @@
+// Reset margin, padding, and box sizing
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+// Set the size of one rem to 10px when default is 16px
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100%
+}
